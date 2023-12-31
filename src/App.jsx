@@ -12,6 +12,7 @@ import WishPage from "./Pages/WishPage";
 import ThankYouPage from "./Pages/ThankYouPage";
 import NotFoundPage from "./Pages/NotFoundPage";
 import ConditionPage from "./Pages/ConditionPage";
+import CheckOutPage from "./Pages/CheckOutPage";
 
 function App() {
   
@@ -31,6 +32,7 @@ function App() {
          <Route path="/thankYouPage" element={<ThankYouPage/>}/>
          <Route path="/notFoundPage" element={<NotFoundPage/>}/>
          <Route path="/conditionPage" element={<ConditionPage/>}/>
+         <Route path="/checkOutPage" element={<CheckOutPage/>}/>
       </Routes>
     
       <Footer/>

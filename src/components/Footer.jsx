@@ -23,6 +23,9 @@ import { NavLink } from "react-router-dom";
               <p>
                <NavLink to="/" className="text-white">New Arrivals</NavLink>
               </p>
+              <p>
+               <NavLink to="/checkOutPage" className="text-white">CheckOutPage</NavLink>
+              </p>
               
               
             </div>
