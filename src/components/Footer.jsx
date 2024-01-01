@@ -37,8 +37,10 @@ import { NavLink } from "react-router-dom";
               <p><NavLink to="/" className="text-white">Home</NavLink></p>
               <p><NavLink to="/contactPage" className="text-white">Contact</NavLink></p>
               <p><NavLink to="/blogPage" className="text-white">Blog</NavLink></p>
-              <p><NavLink to="/thankYouPage" className="text-white">ThankYouPage</NavLink></p>
+              <p><NavLink to="/searchPage" className="text-white">SearchPage</NavLink></p>
               <p><NavLink to="/notFoundPage" className="text-white">404</NavLink></p>
+              <p><NavLink to="/productDetailPage" className="text-white">ProductDetailPage</NavLink></p>
+     
             </div>
             <hr className="w-100 clearfix d-md-none" />
             <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">

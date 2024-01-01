@@ -48,7 +48,7 @@ import { NavLink } from "react-router-dom";
                           <div style={{width:"80px"}}>
                             <h5 className="mb-0">$900</h5>
                           </div>
-                          <a href="#!" style={{color:"#cecece"}}><i class="bi bi-trash"></i></a>
+                          <a href="#!" style={{color:"#cecece"}}><i className="bi bi-trash"></i></a>
                         </div>
                       </div>
                     </div>
@@ -75,7 +75,7 @@ import { NavLink } from "react-router-dom";
                           <div  style={{width:"80px"}}>
                             <h5 className="mb-0">$900</h5>
                           </div>
-                          <a href="#!"  style={{color:"#cecece"}}><i class="bi bi-trash"></i></a>
+                          <a href="#!"  style={{color:"#cecece"}}><i className="bi bi-trash"></i></a>
                         </div>
                       </div>
                     </div>
@@ -102,7 +102,7 @@ import { NavLink } from "react-router-dom";
                           <div style={{width:"80px"}}>
                             <h5 className="mb-0">$1199</h5>
                           </div>
-                          <a href="#!" style={{color:"#cecece"}}><i class="bi bi-trash"></i></a>
+                          <a href="#!" style={{color:"#cecece"}}><i className="bi bi-trash"></i></a>
                         </div>
                       </div>
                     </div>
@@ -129,7 +129,7 @@ import { NavLink } from "react-router-dom";
                           <div  style={{width:"80px"}}>
                             <h5 className="mb-0">$1799</h5>
                           </div>
-                          <a href="#!"style={{color:"#cecece"}}><i class="bi bi-trash"></i></a>
+                          <a href="#!"style={{color:"#cecece"}}><i className="bi bi-trash"></i></a>
                         </div>
                       </div>
                     </div>
@@ -148,7 +148,7 @@ import { NavLink } from "react-router-dom";
                        <h5 className="text-uppercase">items 4</h5>
                         <h5>$4798.00</h5>
                      </div>
-                     <h5 class="text-uppercase mb-3">Shipping</h5>
+                     <h5 className="text-uppercase mb-3">Shipping</h5>
 
                     <div className="mb-4 pb-2">
                      <select className="select">
@@ -162,7 +162,7 @@ import { NavLink } from "react-router-dom";
 
                  <div className="mb-5">
                    <div className="form-outline">
-                    <input type="text" id="form3Examplea2" class="form-control form-control-lg" />
+                    <input type="text" id="form3Examplea2" className="form-control form-control-lg" />
                        <label className="form-label" for="form3Examplea2">Enter your code</label>
                    </div>
                   </div>
