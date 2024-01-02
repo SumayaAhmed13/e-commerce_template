@@ -1,5 +1,5 @@
 import React from 'react'
-
+ import { NavLink } from "react-router-dom";
  const LoginPage = () => {
   return (
     <div className="d-flex align-items-center gradient-custom-3 ">
@@ -19,9 +19,13 @@ import React from 'react'
                 <label className="form-label">Password</label>
                   <input type="password" id="form3Example4cg" className="form-control form-control-lg" />
                  </div>
+               
                   <div className="d-grid gap-2 col-6 mx-auto">
-                  <button className="btn btn-success gradient-custom-4 text-body fw-bold fs-6" type="button">Login</button>
-                 </div>
+                    <NavLink to="/checkOutPage" className="btn btn-success gradient-custom-4 text-body fw-bold fs-6"> Login</NavLink>
+                  </div>
+                  <p className="text-center text-muted mt-3 mb-0">Do not Have Account! 
+                    <NavLink to="/signInPage" className="fw-bold text-success">Register</NavLink>
+                  </p>
               </form>
 
             </div>

@@ -186,7 +186,7 @@ import { NavLink } from "react-router-dom";
                       </div>
   
                       <div className="d-flex justify-content-between">
-                           <NavLink to="/checkOutPage" className="btn btn-light me-2 btn-outline-success fs-5">Checkout <i className="bi bi-arrow-right ms-2"></i></NavLink>
+                           <NavLink to="/loginPage" className="btn btn-light me-2 btn-outline-success fs-5">Checkout <i className="bi bi-arrow-right ms-2"></i></NavLink>
                      </div>
                    
   

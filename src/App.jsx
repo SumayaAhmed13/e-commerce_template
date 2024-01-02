@@ -14,6 +14,8 @@ import NotFoundPage from "./Pages/NotFoundPage";
 import ConditionPage from "./Pages/ConditionPage";
 import CheckOutPage from "./Pages/CheckOutPage";
 import ProductDetailPage from "./Pages/ProductDetailPage";
+import FAQPage from "./Pages/FAQPage";
+import ProductPage from "./Pages/ProductPage";
 
 function App() {
   
@@ -23,8 +25,9 @@ function App() {
       <Router>
       <Routes>
          <Route path="/" element={<HomePage/>}/>
-         <Route path="/contactPage" element={<ContactPage/>}/>
+         <Route path="/productPage" element={<ProductPage/>}/>
          <Route path="/blogPage" element={<BlogPage/>}/>
+         <Route path="/contactPage" element={<ContactPage/>}/>
          <Route path="/signInPage" element={<SignInPage/>}/>
          <Route path="/loginPage" element={<LoginPage/>}/>
          <Route path="/cartPage" element={<CartPage/>}/>
@@ -35,9 +38,9 @@ function App() {
          <Route path="/checkOutPage" element={<CheckOutPage/>}/>
          <Route path="/searchPage" element={<SearchPage/>}/>
          <Route path="/productDetailPage" element={<ProductDetailPage/>}/>
-         
+         <Route path="/FAQPage" element={<FAQPage/>}/>
       </Routes>
-    
+      
       <Footer/>
      </Router>
     </>

@@ -10,8 +10,7 @@ import { NavLink } from "react-router-dom";
           <div className="row">
             <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
               <h6 className="text-uppercase mb-4 font-weight-bold">
-                Company name
-              </h6>
+              e-Commerce Template </h6>
               <p>
                 Template.com ,Lorem ipsum dolor sit amet, consectetur adipisicing
                 elit.
@@ -23,12 +22,7 @@ import { NavLink } from "react-router-dom";
               <p>
                <NavLink to="/" className="text-white">New Arrivals</NavLink>
               </p>
-              <p>
-               <NavLink to="/checkOutPage" className="text-white">CheckOutPage</NavLink>
-              </p>
-              
-              
-            </div>
+           </div>
             <hr className="w-100 clearfix d-md-none" />
             <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
               <h6 className="text-uppercase mb-4 font-weight-bold">
@@ -37,18 +31,17 @@ import { NavLink } from "react-router-dom";
               <p><NavLink to="/" className="text-white">Home</NavLink></p>
               <p><NavLink to="/contactPage" className="text-white">Contact</NavLink></p>
               <p><NavLink to="/blogPage" className="text-white">Blog</NavLink></p>
-              <p><NavLink to="/searchPage" className="text-white">SearchPage</NavLink></p>
               <p><NavLink to="/notFoundPage" className="text-white">404</NavLink></p>
-              <p><NavLink to="/productDetailPage" className="text-white">ProductDetailPage</NavLink></p>
+              <p><NavLink to="/FAQPage" className="text-white">FAQ</NavLink></p>
      
             </div>
             <hr className="w-100 clearfix d-md-none" />
             <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
               <h6 className="text-uppercase mb-4 font-weight-bold">Contact</h6>
-              <p><i class="bi bi-house"></i> Dhaka, Bangladesh</p>
-              <p><i class="bi bi-envelope"></i> info@gmail.com</p>
-              <p><i class="bi bi-phone"></i> + 01 234 567 88</p>
-              <p><i class="bi bi-printer"></i> + 01 234 567 89</p>
+              <p><i className="bi bi-house"></i> Dhaka, Bangladesh</p>
+              <p><i className="bi bi-envelope"></i> info@gmail.com</p>
+              <p><i className="bi bi-phone"></i> + 01 234 567 88</p>
+              <p><i className="bi bi-printer"></i> + 01 234 567 89</p>
             </div>
           
           </div>

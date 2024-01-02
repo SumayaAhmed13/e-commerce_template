@@ -1,9 +1,9 @@
 import React from 'react'
 import { NavLink } from "react-router-dom";
-
- const ProductList = () => {
+import Layout from '../components/Layout';
+ const ProductPage = () => {
   return (
-    
+    <Layout>
     <div className="container">
     <section className='bg-light'>
         <div className="container py-5">
@@ -14,7 +14,7 @@ import { NavLink } from "react-router-dom";
                 <div className="d-flex p-3 justify-content-end">
                   <div
                     className="bg-success rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
-                    style={{width: "35px", height: "35px"}}>
+                    style="width: 35px; height: 35px;">
                     <p className="text-white mb-0 small">new</p>
                   </div>
                 </div>
@@ -41,7 +41,7 @@ import { NavLink } from "react-router-dom";
                       <i className="bi bi-star"></i>
                     </div>
                   </div>
-                  <div className="d-flex justify-content-center mb-2" >
+                  <div className="d-flex justify-content-between mb-2" >
                   <NavLink to="/cartPage" className="btn btn-success shadow-3 rounded-pill"> Buy now</NavLink>
                   <NavLink to="/wishPage" className="btn btn-outline-danger shadow-3 rounded-pill mx-3"> Wishlist</NavLink>
                    
@@ -55,7 +55,7 @@ import { NavLink } from "react-router-dom";
                   
                   <div
                     className="bg-success rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
-                    style={{width: "35px", height: "35px"}}>
+                    style="width: 35px; height: 35px;">
                     <p className="text-white mb-0 small">new</p>
                   </div>
                 </div>
@@ -82,7 +82,7 @@ import { NavLink } from "react-router-dom";
                       <i className="bi bi-star"></i>
                     </div>
                   </div>
-                  <div className="d-flex justify-content-center mb-2" >
+                  <div className="d-flex justify-content-between mb-2" >
                   <NavLink to="/cartPage" className="btn btn-success shadow-3 rounded-pill"> Buy now</NavLink>
                   <NavLink to="/wishPage" className="btn btn-outline-danger shadow-3 rounded-pill mx-3"> Wishlist</NavLink>
                   </div>
@@ -95,7 +95,7 @@ import { NavLink } from "react-router-dom";
                   
                   <div
                     className="bg-success rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
-                    style={{width: "35px", height: "35px"}}>
+                    style="width: 35px; height: 35px;">
                     <p className="text-white mb-0 small">new</p>
                   </div>
                 </div>
@@ -122,7 +122,7 @@ import { NavLink } from "react-router-dom";
                         <i className="bi bi-star"></i>
                     </div>
                   </div>
-                  <div className="d-flex justify-content-center mb-2" >
+                  <div className="d-flex justify-content-between mb-2" >
                   <NavLink to="/cartPage" className="btn btn-success shadow-3 rounded-pill"> Buy now</NavLink>
                   <NavLink to="/wishPage" className="btn btn-outline-danger shadow-3 rounded-pill mx-3"> Wishlist</NavLink>
                   </div>
@@ -146,7 +146,7 @@ import { NavLink } from "react-router-dom";
                     <p className="lead mb-0">Today's Combo Offer</p>
                     <div
                       className="bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
-                      style={{width: "35px", height: "35px"}}>
+                      style="width: 35px; height: 35px;">
                       <p className="text-white mb-0 small">x2</p>
                     </div>
                   </div>
@@ -173,7 +173,7 @@ import { NavLink } from "react-router-dom";
                       <i className="bi bi-star"></i>
                     </div>
                   </div>
-                  <div className="d-flex justify-content-center mb-2" >
+                  <div className="d-flex justify-content-between mb-2" >
                   <NavLink to="/cartPage" className="btn btn-success shadow-3 rounded-pill"> Buy now</NavLink>
                   <NavLink to="/wishPage" className="btn btn-outline-danger shadow-3 rounded-pill mx-3"> Wishlist</NavLink>
                   </div>
@@ -186,7 +186,7 @@ import { NavLink } from "react-router-dom";
                   <p className="lead mb-0">Today's Combo Offer</p>
                   <div
                     className="bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
-                    style={{width: "35px", height: "35px"}}>
+                    style="width: 35px; height: 35px;">
                     <p className="text-white mb-0 small">x2</p>
                   </div>
                 </div>
@@ -213,7 +213,7 @@ import { NavLink } from "react-router-dom";
                       <i className="bi bi-star"></i>
                     </div>
                   </div>
-                  <div className="d-flex justify-content-center mb-2" >
+                  <div className="d-flex justify-content-between mb-2" >
                   <NavLink to="/cartPage" className="btn btn-success shadow-3 rounded-pill"> Buy now</NavLink>
                   <NavLink to="/wishPage" className="btn btn-outline-danger shadow-3 rounded-pill mx-3"> Wishlist</NavLink>
                   </div>
@@ -226,7 +226,7 @@ import { NavLink } from "react-router-dom";
                   <p className="lead mb-0">Today's Combo Offer</p>
                   <div
                     className="bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
-                    style={{width: "35px", height: "35px"}}>
+                    style="width: 35px; height: 35px;">
                     <p className="text-white mb-0 small">x2</p>
                   </div>
                 </div>
@@ -253,7 +253,7 @@ import { NavLink } from "react-router-dom";
                         <i className="bi bi-star"></i>
                     </div>
                   </div>
-                  <div className="d-flex justify-content-center mb-2" >
+                  <div className="d-flex justify-content-between mb-2" >
                   <NavLink to="/cartPage" className="btn btn-success shadow-3 rounded-pill"> Buy now</NavLink>
                   <NavLink to="/wishPage" className="btn btn-outline-danger shadow-3 rounded-pill mx-3"> Wishlist</NavLink>
                   </div>
@@ -264,7 +264,7 @@ import { NavLink } from "react-router-dom";
         </div>
     </section>   
     </div>
-  
-)
+   </Layout>
+  )
 }
-export default ProductList
+export default ProductPage

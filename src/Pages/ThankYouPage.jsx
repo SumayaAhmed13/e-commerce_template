@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
                 <div className="border border-3 border-success"></div>
                 <div className="card  bg-white shadow p-5">
                     <div className="mb-4 text-center">
-                    <i classNames="bi-check-circle text-success"></i>
+                    <i className="bi bi-check-circle text-success fs-1"></i>
                     </div>
                     <div className="text-center">
                         <h1>Thank You !</h1>
